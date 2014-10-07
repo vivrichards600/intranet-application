@@ -5,4 +5,4 @@ This is the code to accompany [a tutorial I wrote](http://vlrichards.blogspot.co
 
 Created using Visual Studio 2010 and MVC4
 
-[A blogpost Link to tutorial]
+Link to tutorial [Simple MVC4 VB.Net Tutorial](http://vlrichards.blogspot.co.uk/2014/10/simple-mvc4-vbnet-tutorial-without.html)
