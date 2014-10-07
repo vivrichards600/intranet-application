@@ -29,5 +29,18 @@ Public Class HomeControllerTest
 
     End Sub
 
+
+    <TestMethod()> Public Sub About()
+        ' Arrange
+        Dim controller As New HomeController()
+
+        ' Act
+        Dim result As ViewResult = DirectCast(controller.About(), ViewResult)
+
+        ' Assert
+        Dim viewData As ViewDataDictionary = result.ViewData
+        Assert.AreEqual("About Page Title", viewData("Title"))
+
+    End Sub
   
 End Class

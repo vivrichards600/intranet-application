@@ -8,5 +8,12 @@
             Return View()
         End Function
 
+
+        Function About() As ActionResult
+            ViewData("Title") = "About Page Title"
+
+            Return View()
+        End Function
+
     End Class
 End Namespace
